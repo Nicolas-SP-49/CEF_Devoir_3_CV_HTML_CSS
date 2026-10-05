@@ -7,163 +7,164 @@
     <title>Nicolas - CV developpeur web et web mobile</title>
     <meta name="description" content="Curriculum de Nicolas, developpeur web et web mobile en formation au CEF">
     <link rel="icon" href="images/favicon/cv.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <figure>
-                <a href="images/photos/flex-4.jpg" target="_blank"><img src="images/photos/flex-4.jpg" alt="Ma photo de profil" width="150" height="150"></a>
+    <div class="cv">
+        <header class="header">
+            <figure class="header__photo">
+                <a href="images/photos/flex-4.jpg" target="_blank" class="header__photo-lien"><img src="images/photos/flex-4.jpg" alt="Ma photo de profil" class="header__photo-img"></a>
             </figure>
-            <div>
-                <h1>Nicolas STP</h1>
-                <h2>Développeur Web et Web Mobile</h2>
-                <address>
-                    <a href="mailto:nicolas@gmail.com"><img src="./images/icons/envelope-solid-white.svg" alt="icone mail" width="16" height="16">Mail</a>
-                    <a href="tel:0606060606"><img src="./images/icons/phone-solid-white.svg" alt="icone telephone" width="16" height="16">Téléphone</a>
-                    <a href="https://www.google.com/maps" target="_blank"><img src="./images/icons/house-solid-white.svg" alt="icone maps" width="16" height="16">Adresse</a>
-                    <p><img src="./images/icons/car-solid-white.svg" alt="icone voiture" width="16" height="16"> Permis B</p>
+            <div class="header__ident">
+                <h1 class="header__ident-name">Nicolas STP</h1>
+                <h2 class="header__ident-titre">Développeur Web et Web Mobile</h2>
+                <address class="header__contact">
+                    <a href="mailto:nicolas@gmail.com" class="header__contact-info"><img src="./images/icons/envelope-solid-white.svg" alt="icone mail" class="header__contact-icon">Mail</a>
+                    <a href="tel:0606060606" class="header__contact-info"><img src="./images/icons/phone-solid-white.svg" alt="icone telephone" class="header__contact-icon">Téléphone</a>
+                    <a href="https://www.google.com/maps" class="header__contact-info" target="_blank"><img src="./images/icons/house-solid-white.svg" alt="icone maps" class="header__contact-icon">Adresse</a>
+                    <p class="header__contact-info"><img src="./images/icons/car-solid-white.svg" alt="icone voiture" class="header__contact-icon"> Permis B</p>
                 </address>
             </div>
         </header>
 
-        <aside>
-            <section>
-                <h3>Compétences</h3>
-                <dl>
-                    <dt>HTML</dt>
-                    <dd>
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 2" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 3" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 4" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
+        <aside class="aside">
+            <section class="aside__competences">
+                <h3 class="aside__titre">Compétences</h3>
+                <dl class="niveau">
+                    <dt class="niveau__discipline">HTML</dt>
+                    <dd class="niveau__note">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 2" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 3" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 4" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
                     </dd>
-                    <dt>CSS</dt>
-                    <dd>
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 2" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 3" width="16" height="16">
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 4" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
+                    <dt class="niveau__discipline">CSS</dt>
+                    <dd class="niveau__note">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 2" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 3" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 4" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
                     </dd>
-                    <dt>Javascript</dt>
-                    <dd>
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
+                    <dt class="niveau__discipline">Javascript</dt>
+                    <dd class="niveau__note">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
                     </dd>
-                    <dt>PHP</dt>
-                    <dd>
-                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
-                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" width="16" height="16">
+                    <dt class="niveau__discipline">PHP</dt>
+                    <dd class="niveau__note">
+                        <img src="./images/illustrations/star-solid-plein.svg" alt="niveau de competance 1" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
+                        <img src="./images/illustrations/star-regular-vide.svg" alt="etoile" class="niveau__note-stars">
                     </dd>
                 </dl>
             </section>
-            <section>
-                <h3>Langues</h3>
-                <dl>
-                    <dt>Français</dt>
-                    <dd>Langue maternelle</dd>
-                    <dt>Anglais</dt>
-                    <dd>Technique</dd>
-                    <dt>Allemand</dt>
-                    <dd>Notions</dd>
+            <section class="aside__langues">
+                <h3 class="aside__titre">Langues</h3>
+                <dl class="niveau">
+                    <dt class="niveau__discipline">Français</dt>
+                    <dd class="niveau__note">Langue maternelle</dd>
+                    <dt class="niveau__discipline">Anglais</dt>
+                    <dd class="niveau__note">Technique</dd>
+                    <dt class="niveau__discipline">Allemand</dt>
+                    <dd class="niveau__note">Notions</dd>
                 </dl>
             </section>
-            <section>
-                <h3>Qualités</h3>
-                <ul>
-                    <li>Esprit d'équipe</li>
-                    <li>Autonomie</li>
-                    <li>Organisation</li>
-                    <li>Créativité</li>
+            <section class="aside__qualite">
+                <h3 class="aside__titre">Qualités</h3>
+                <ul class="list">
+                    <li class="list__item">Esprit d'équipe</li>
+                    <li class="list__item">Autonomie</li>
+                    <li class="list__item">Organisation</li>
+                    <li class="list__item">Créativité</li>
                 </ul>
 
             </section>
-            <section>
-                <h3>Centres d'intérêt</h3>
-                <ul>
-                    <li>Pêche</li>
-                    <li>Moto</li>
-                    <li>Nouvelles technologies</li>
+            <section class="aside__interet">
+                <h3 class="aside__titre">Centres d'intérêt</h3>
+                <ul class="list">
+                    <li class="list__item">Pêche</li>
+                    <li class="list__item">Moto</li>
+                    <li class="list__item">Nouvelles technologies</li>
                 </ul>
             </section>
         </aside>
-        <main>
+        <main class="main">
 
-            <section>
-                <h3>Profil</h3>
-                <p>Actuellement en formation de Développeur Web et Web Mobile au Centre Européen de Formation, je construis des sites accessibles, bien structurés et fidèles aux maquettes. J'accorde une attention particulière au HTML sémantique et à une intégration CSS soignée, en utilisant des outils comme Git, GitHub et VS Code au quotidien.</p>
-                <p>Curieux et rigoureux, j'aime comprendre le fonctionnement des choses avant de les mettre en œuvre. Je souhaite aujourd'hui approfondir JavaScript et PHP afin de concevoir des applications web complètes, et je recherche un stage pour mettre mes compétences au service d'une équipe.</p>
+            <section class="main__profil">
+                <h3 class="main__titre">Profil</h3>
+                <p class="main__profil-text">Actuellement en formation de Développeur Web et Web Mobile au Centre Européen de Formation, je construis des sites accessibles, bien structurés et fidèles aux maquettes. J'accorde une attention particulière au HTML sémantique et à une intégration CSS soignée, en utilisant des outils comme Git, GitHub et VS Code au quotidien.</p>
+                <p class="main__profil-text">Curieux et rigoureux, j'aime comprendre le fonctionnement des choses avant de les mettre en œuvre. Je souhaite aujourd'hui approfondir JavaScript et PHP afin de concevoir des applications web complètes, et je recherche un stage pour mettre mes compétences au service d'une équipe.</p>
             </section>
-            <section>
-                <h3>Formations</h3>
-                <article>
-                    <h4>Titre Professionnel DWWM</h4>
-                    <p>Centre Européen de Formation</p>
-                    <p><time datetime="2026">2026</time> / <time datetime="2027">2027</time></p>
+            <section class="main__formation">
+                <h3 class="main__titre">Formations</h3>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Titre Professionnel DWWM</h4>
+                    <p class="main__parcours-info">Centre Européen de Formation</p>
+                    <p class="main__parcours-date"><time datetime="2026">2026</time> / <time datetime="2027">2027</time></p>
                 </article>
-                <article>
-                    <h4>Technicien d'assistance en informatique</h4>
-                    <p>CFP la membrolle</p>
-                    <p><time datetime="2010">2010</time> - <time datetime="2011">2011</time></p>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Technicien d'assistance en informatique</h4>
+                    <p class="main__parcours-info">CFP la membrolle</p>
+                    <p class="main__parcours-date"><time datetime="2010">2010</time> - <time datetime="2011">2011</time></p>
                 </article>
-                <article>
-                    <h4>BTS informatique de gestion</h4>
-                    <p>Lycée chevrollier Angers</p>
-                    <p><time datetime="2000">2000</time> - <time datetime="2002">2002</time></p>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">BTS informatique de gestion</h4>
+                    <p class="main__parcours-info">Lycée chevrollier Angers</p>
+                    <p class="main__parcours-date"><time datetime="2000">2000</time> - <time datetime="2002">2002</time></p>
                 </article>
 
 
 
             </section>
-            <section>
-                <h3>Stages</h3>
-                <article>
-                    <h4>Gestionnaire de paye</h4>
-                    <p>Société Truc & Bidule</p>
-                    <p><time datetime="2022-03">Mars 2022</time> - <time datetime="2022-04">Avril 2022</time></p>
+            <section class="main__stages">
+                <h3 class="main__titre">Stages</h3>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Gestionnaire de paye</h4>
+                    <p class="main__parcours-info">Société Truc & Bidule</p>
+                    <p class="main__parcours-date"><time datetime="2022-03">Mars 2022</time> - <time datetime="2022-04">Avril 2022</time></p>
                 </article>
-                <article>
-                    <h4>Agent d'accueil</h4>
-                    <p>Mairie d'Angers</p>
-                    <p><time datetime="2021-01">Janvier 2021</time> - <time datetime="2021-02">Février 2021</time></p>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Agent d'accueil</h4>
+                    <p class="main__parcours-info">Mairie d'Angers</p>
+                    <p class="main__parcours-date"><time datetime="2021-01">Janvier 2021</time> - <time datetime="2021-02">Février 2021</time></p>
                 </article>
             </section>
-            <section>
-                <h3>Expérience professionnelle</h3>
-                <article>
-                    <h4>Cadre technique</h4>
-                    <p>La Pommeraye</p>
-                    <p><time datetime="2021-03">Mars 2021</time> - <time datetime="2021-07">Juillet 2021</time></p>
+            <section class="main__experience">
+                <h3 class="main__titre">Expérience professionnelle</h3>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Cadre technique</h4>
+                    <p class="main__parcours-info">La Pommeraye</p>
+                    <p class="main__parcours-date"><time datetime="2021-03">Mars 2021</time> - <time datetime="2021-07">Juillet 2021</time></p>
                 </article>
-                <article>
-                    <h4>Depannage informatique à domicile</h4>
-                    <p>Transport Nénès & Fils</p>
-                    <p><time datetime="2011-09">Septembre 2011</time> - <time datetime="2013">2013</time></p>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Depannage informatique à domicile</h4>
+                    <p class="main__parcours-info">Transport Nénès & Fils</p>
+                    <p class="main__parcours-date"><time datetime="2011-09">Septembre 2011</time> - <time datetime="2013">2013</time></p>
                 </article>
-                <article>
-                    <h4>Experiences industrielles</h4>
-                    <p>Groupes automobiles</p>
-                    <p><time datetime="2004">2004</time> - <time datetime="2009">2009</time></p>
+                <article class="main__parcours">
+                    <h4 class="main__parcours-titre">Experiences industrielles</h4>
+                    <p class="main__parcours-info">Groupes automobiles</p>
+                    <p class="main__parcours-date"><time datetime="2004">2004</time> - <time datetime="2009">2009</time></p>
                 </article>
             </section>
 
         </main>
 
-        <footer>
-            <ul>
-                <li><a href="#"><img src="images/icons/linkedin-brands-solid-full.svg" alt="logo linkedin" width="16" height="16"></a></li>
-                <li><a href="https://github.com/Nicolas-SP-49/CEF_Devoir_3_CV_HTML_CSS" target="_blank"><img src="images/icons/github-brands-solid-full.svg" alt="logo GitHub" width="16" height="16"></a></li>
-                <li><a href="#"><img src="images/icons/square-instagram-brands-solid-full.svg" alt="logo Instagram" width="16" height="16"></a></li>
+        <footer class="footer">
+            <ul class="footer__social">
+                <li><a href="#" class="footer__social-lien"><img src="images/icons/linkedin-brands-solid-full.svg" alt="logo linkedin" class="footer__social-ico"></a></li>
+                <li><a href="https://github.com/Nicolas-SP-49/CEF_Devoir_3_CV_HTML_CSS" target="_blank" class="footer__social-lien"><img src="images/icons/github-brands-solid-full.svg" alt="logo GitHub" class="footer__social-ico"></a></li>
+                <li><a href="#" class="footer__social-lien"><img src="images/icons/square-instagram-brands-solid-full.svg" alt="logo Instagram" class="footer__social-ico"></a></li>
             </ul>
-            <p>Mis à jour le: <time datetime="2026-10-02">02/10/2026</time></p>
+            <p class="footer__dateMAJ">Mis à jour le: <time datetime="2026-10-02">02/10/2026</time></p>
         </footer>
     </div>
 </body>
